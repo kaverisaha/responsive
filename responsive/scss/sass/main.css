@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #272727;
+  color: #fff;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+}
+.main P {
+  font-weight: 700;
+}
+.main .main__paragraph1:hover, .main .main__paragraph2:hover {
+  color: pink;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+.main .main__paragraph2:hover {
+  color: #ff6;
+}/*# sourceMappingURL=main.css.map */

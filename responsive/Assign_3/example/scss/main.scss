@@ -1,0 +1,18 @@
+$primary-color: #fff;
+$accented-color: #272727;
+$text-color: #ff6;
+$font-weights:(
+    "bold":500,
+    "regular":300,
+    "medium":400,
+    );
+
+body{
+    background-color: $accented-color;
+    color: $primary-color;
+    font-weight:map-get($font-weights,regular);
+}
+.main{
+    width: 80%;
+    margin:0 auto;
+}
